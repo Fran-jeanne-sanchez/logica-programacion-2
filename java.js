@@ -1,5 +1,5 @@
     function convertirTemperatura() {
-        var temperaturaCelsius;
+        let temperaturaCelsius;
     
         // Solicitar la temperatura en grados Celsius y verificar si es un número
         do {
@@ -10,8 +10,8 @@
         } while (isNaN(temperaturaCelsius));
     
         // Convertir temperatura de Celsius a Fahrenheit y Kelvin
-        var temperaturaFahrenheit = (temperaturaCelsius * 9 / 5) + 32;
-        var temperaturaKelvin = temperaturaCelsius + 273.15;
+        let temperaturaFahrenheit = (temperaturaCelsius * 9 / 5) + 32;
+        let temperaturaKelvin = temperaturaCelsius + 273.15;
     
         // Imprimir resultados
         console.log("Grados Fahrenheit:", temperaturaFahrenheit.toFixed(2));
